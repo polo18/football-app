@@ -761,7 +761,7 @@ h1, h2, h3, h4, h5,
         -webkit-transition: .3s all ease;
         -o-transition: .3s all ease;
         transition: .3s all ease;
-        background: rgba(0, 0, 0, 0.4); }
+        /*background: rgba(0, 0, 0, 0.4);*/ }
       .latest-news .post-entry .caption .caption-inner {
         position: absolute;
         bottom: 30px;
