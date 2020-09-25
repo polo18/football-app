@@ -992,8 +992,9 @@ h1, h2, h3, h4, h5,
   -ms-flex: 0 0 150px;
   flex: 0 0 150px; }
   .custom-media .img img {
-    max-width: 100%;
-    border-radius: 7px; }
+    width: 100%;
+    border-radius: 7px; 
+    height: 12rem;}
 
 .custom-media .text .meta {
   color: rgba(255, 255, 255, 0.3);
