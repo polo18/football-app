@@ -228,11 +228,47 @@ jQuery(document).ready(function($) {
 
 			$('.js-custom-next-v2').click(function(e) {
 				e.preventDefault();
+				console.log("btn next 2")
 				owl4.trigger('next.owl.carousel');
 			})
 			$('.js-custom-prev-v2').click(function(e) {
 				e.preventDefault();
+				console.log("btn prev 2")
 				owl4.trigger('prev.owl.carousel');
+			})
+		}
+
+		
+		if ( $('.owl-6-slider').length > 0 ) {
+			var owl6 = $('.owl-6-slider').owlCarousel({
+		    loop: true,
+		    autoHeight: true,
+		    margin: 0,
+		    autoplay: true,
+		    smartSpeed: 1000,
+		    items: 4,
+		    nav: false,
+		    navText: ['<span class="icon-keyboard_backspace"></span>','<span class="icon-keyboard_backspace"></span>'],
+		    responsive:{
+	        0:{
+	            items:1
+	        },
+	        600:{
+	            items:3
+	        },
+	        1000:{
+	            items:4
+	        }
+	    	}
+			});
+
+			$('.js-custom-next-v4').click(function(e) {
+				e.preventDefault();
+				owl6.trigger('next.owl.carousel');
+			})
+			$('.js-custom-prev-v4').click(function(e) {
+				e.preventDefault();
+				owl6.trigger('prev.owl.carousel');
 			})
 		}
 
